@@ -1,0 +1,70 @@
+.thumbnail img {
+    width: 100%; 
+}
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle span.icon-bar {
+    transition: all 0.15s;
+}
+
+.navbar-toggle span:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-toggle span:nth-child(4) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+    opacity: 1;
+}
+.land-body {
+	background: url("https://images.unsplash.com/photo-1486693128850-a77436e7ba3c");
+	background-size: cover;
+	background-position: center;
+	color:  white;
+}
+.land-html {
+	height: 100%;
+}
+#content {
+	text-align: center;
+	padding-top: 10%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4) 
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+.land-h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+.land-hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2) ;
+}
